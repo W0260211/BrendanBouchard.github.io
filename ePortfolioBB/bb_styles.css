@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+
+
+/* pattern by Marta Armada*/
+body {
+background: 
+radial-gradient(circle, transparent 20%, dodgerblue 20%, dodgerblue 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, dodgerblue 20%, dodgerblue 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#003366 8px, transparent 8px) 0 -4px,linear-gradient(90deg, #003366 8px, transparent 8px) -4px 0;
+background-color: dodgerblue;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+margin: 2;
+}
+
+
+header > nav {
+	display: table;
+	width: 100%;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header > nav > ul {
+	display: table-row;
+	list-style-type: none;
+}
+
+header > nav > ul > li {
+	display: table-cell;
+	text-align: center;
+}
+.active {
+    background-color:slategray ;
+	color: white;
+}
+	
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+header > nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0073e6;
+
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+	font-size: large;
+	font: 18px arial, sans-serif;
+}
+
+header > nav > ul > li  a:hover {
+    background-color: slategray;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+header > nav a {
+	display: block;
+	width: 100%;
+}
+
+
+@media (max-width: 768px) {
+ header > nav > ul     { 	display: table-cell;
+	list-style-type: none;}
+
+}
+
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#aside{
+	
+	flex: 20%;
+	background-color: #4da6ff;
+	margin-top: 12px;
+	padding: 20px;
+	color: white;
+	font: 24px arial, sans-serif;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+#main {
+	
+	flex: 70%;
+	background: linear-gradient(to bottom right, #1a8cff, dodgerblue);
+	padding: 20px;
+	margin-top: 12px;
+	margin-left: 10px;
+	font: 30px arial, sans-serif;
+	text-align: center;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#main2 {
+	
+	flex: 100%;
+	background: linear-gradient(to bottom right, #1a8cff, dodgerblue);
+	padding: 20px;
+	margin-top: 12px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font: 26px arial, sans-serif;
+	text-align: left;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#main3 {
+	
+	flex: 100%;
+	background: linear-gradient(to bottom right, #1a8cff, dodgerblue);
+	padding: 20px;
+	margin-top: 12px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font: 26px arial, sans-serif;
+	text-align: center;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h5 {
+	text-align: left;
+}
+
+#main4 {
+	
+	flex: 100%;
+	background: ivory;
+	padding: 20px;
+	margin-top: 12px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font: 26px arial, sans-serif;
+	text-align: left;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#main4 > h1{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
